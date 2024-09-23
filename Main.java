@@ -25,11 +25,11 @@ public class Main {
             for (int j = 1; j <= height - i; j++) {
                 System.out.print(" "); // Печатаем пробелы
             }
-            // Внутренний цикл для заданного символа
+            
             for (int k = 1; k <= (2 * i - 1); k++) {
                 System.out.print(symbol); // Печатаем заданный символ
             }
-            // Переход на новую строку после каждой строки треугольника
+
             System.out.println();
         }
         
